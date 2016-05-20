@@ -1,0 +1,21 @@
+body {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-title {
+	text-align: center;
+	font-size: 36px;
+	font-family: arial;
+    text-transform: uppercase;
+}
+
+canvas#map, canvas#text, canvas#player {
+	display: block;
+	margin: 0px auto;
+	// background-color: #fff;
+}
+
+canvas#text,
+canvas#player {
+	margin-top: -400px;
+}
